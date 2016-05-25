@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llWinScreen"
+    android:background="@drawable/end_screen_win"
+    android:visibility="visible"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="120dp"
+    android:gravity="bottom">
+
+    <Button
+        android:id="@+id/bRestartGame"
+        style="@style/end_screen_button"
+        android:text="@string/sNewGame" />
+
+    <Button
+        android:id="@+id/bMainMenu"
+        style="@style/end_screen_button"
+        android:text="@string/sMenu" />
+
+    <Button
+        android:id="@+id/bAddRecord"
+        style="@style/end_screen_button"
+        android:text="@string/sRecord"
+        android:visibility="visible"/>
+</LinearLayout>

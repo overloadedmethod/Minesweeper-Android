@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/menu_style">
+
+    <LinearLayout
+        style="@style/menuCentralElement"
+        android:layout_weight="0.11">
+
+        <Button
+            android:id="@+id/bEasy"
+            style="@style/menu_button"
+            android:text="@string/sEasy" />
+
+        <Button
+            android:id="@+id/bMedium"
+            style="@style/menu_button"
+            android:text="@string/sMedium" />
+
+        <Button
+            android:id="@+id/bHard"
+            style="@style/menu_button"
+            android:text="@string/sHard" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="menuBackgroundNormal">#F77A0C</color>
+    <color name="menuBackgroundClicked">#3B76A3</color>
+    <color name="menuBackgroundBorderNormal">#3B76A3</color>
+    <color name="menuBackgroundBorderClicked">#F77A0C</color>
+    <color name="menuForegroundNormal">#3B76A3</color>
+    <color name="menuForegroundClicked">#F77A0C</color>
+    <color name="cellBackgroundClosed">#F77A0C</color>
+    <color name="cellBorderClosed">#3B76A3</color>
+    <color name="cellBackgroundOpened">#3B76A3</color>
+    <color name="cellBorderOpened">#F77A0C</color>
+    <color name="mineBackground">#E80707</color>
+
+
+</resources>

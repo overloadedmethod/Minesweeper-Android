@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bGameCell"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@drawable/cell_background_closed"
+    android:gravity="center"
+    android:padding="30dp"
+    android:textColor="@color/cellBorderOpened"></Button>

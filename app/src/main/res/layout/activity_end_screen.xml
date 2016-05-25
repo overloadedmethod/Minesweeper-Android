@@ -1,0 +1,29 @@
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <fragment android:name="com.example.hekp.minesweeper.fragments.AddRecordFragment"
+        android:id="@+id/AddRecordFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.example.hekp.minesweeper.fragments.WinScreenFragment"
+        android:id="@+id/WinGameScreenFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.example.hekp.minesweeper.fragments.LoseScreenFragment"
+        android:id="@+id/LoseGameScreenFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayoutFragmentContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+</FrameLayout>

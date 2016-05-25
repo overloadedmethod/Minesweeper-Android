@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/counter_flags_layout">
+
+        <LinearLayout style="@style/timer_counter_container">
+
+            <TextView
+                android:id="@+id/tvTimerCounter"
+                style="@style/timer_label"
+                android:text="@string/sTimerCounter" />
+
+            <TextView
+                android:id="@+id/tvTimerCounterValue"
+                style="@style/timer_value"
+                android:text="0" />
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/flags_counter_container">
+
+            <TextView
+                android:id="@+id/tvFlagCounter"
+                style="@style/flags_label"
+                android:text="@string/sFlagsCounter" />
+
+            <TextView
+                android:id="@+id/tvFlagCounterValue"
+                style="@style/flags_value"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <GridView
+            android:id="@+id/gvGameBoard"
+            style="@style/gameboard"></GridView>
+
+        <Button
+            android:id="@+id/bGameScreenPause"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/play_button_element"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</GridLayout>

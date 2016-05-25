@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/menu_style">
+
+    <LinearLayout
+        style="@style/menuCentralElement"
+        android:layout_weight="0.15">
+
+        <Button
+            android:id="@+id/bRestartGame"
+            style="@style/menu_button"
+            android:text="@string/sNewGame" />
+
+        <Button
+            android:id="@+id/bScores"
+            style="@style/menu_button"
+            android:text="@string/scores" />
+
+        <Button
+            android:id="@+id/bOptions"
+            style="@style/menu_button"
+            android:text="@string/sOptions" />
+
+        <Button
+            android:id="@+id/bExit"
+            style="@style/menu_button"
+            android:text="@string/sExit" />
+    </LinearLayout>
+
+</LinearLayout>

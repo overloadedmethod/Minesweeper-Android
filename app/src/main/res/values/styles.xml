@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="menu_button">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:radius">15dp</item>
+        <item name="android:textColor">@drawable/menu_button_foreground_selector</item>
+        <item name="android:background">@drawable/menu_button_background_selector</item>
+    </style>
+
+    <style name="menuCentralElement">
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="flags_counter">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:radius">15dp</item>
+        <item name="android:textColor">@color/cellBorderOpened</item>
+        <item name="android:background">@drawable/cell_background_opened</item>
+    </style>
+
+    <style name="timer_counter">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:radius">15dp</item>
+        <item name="android:textColor">@color/cellBorderClosed</item>
+        <item name="android:background">@drawable/cell_background_closed</item>
+    </style>
+
+    <style name="counter_flags_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_row">1</item>
+        <item name="android:layout_column">12</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="timer_counter_container" parent="timer_counter">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_row">1</item>
+        <item name="android:layout_column">2</item>
+    </style>
+
+    <style name="timer_label">
+        <item name="android:textColor">@color/cellBorderClosed</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">.5</item>
+    </style>
+
+    <style name="timer_value">
+        <item name="android:textColor">@color/cellBorderClosed</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="flags_counter_container" parent="flags_counter">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_row">1</item>
+        <item name="android:layout_column">2</item>
+    </style>
+
+    <style name="flags_label">
+        <item name="android:textColor">@color/cellBorderOpened</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">.5</item>
+    </style>
+
+    <style name="flags_value">
+        <item name="android:textColor">@color/cellBorderOpened</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="menu_style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/menuBackgroundClicked</item>
+        <item name="android:weightSum">1</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="end_screen_button" parent="menu_button">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="gameboard">
+        <item name="android:layout_row">14</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_column">12</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+</resources>

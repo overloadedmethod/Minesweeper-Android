@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/cell_background_closed" />
+
+    <item
+        android:drawable="@drawable/flag_icon_proprietary" />
+</layer-list>

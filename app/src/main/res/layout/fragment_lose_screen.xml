@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llLoseScreen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/end_screen_lose"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="180dp"
+    android:gravity="bottom">
+
+    <Button
+        android:id="@+id/bRestartGame"
+        style="@style/end_screen_button"
+        android:text="@string/sNewGame" />
+
+    <Button
+        android:id="@+id/bMainMenu"
+        style="@style/end_screen_button"
+        android:text="@string/sMenu" />
+</LinearLayout>

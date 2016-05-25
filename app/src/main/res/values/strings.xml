@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="sNewGame">New Game</string>
+    <string name="sResume">Resume</string>
+    <string name="sOptions">Options</string>
+    <string name="sExit">Quit</string>
+    <string name="sEasy">Easy</string>
+    <string name="sMedium">Medium</string>
+    <string name="sHard">Hard</string>
+    <string name="sTimerCounter">Time:</string>
+    <string name="sFlagsCounter">Flags:</string>
+    <string name="sAgain">Another Game</string>
+    <string name="sMenu">Main Menu</string>
+    <string name="title_activity_win_screen">WinScreenActivity</string>
+    <string name="title_activity_scores">Map</string>
+    <string name="scores">Scores</string>
+    <string name="scores_1">1</string>
+    <string name="scores_2">2</string>
+    <string name="scores_3">3</string>
+    <string name="scores_4">4</string>
+    <string name="scores_5">5</string>
+    <string name="scores_6">6</string>
+    <string name="scores_7">7</string>
+    <string name="scores_8">8</string>
+    <string name="scores_9">9</string>
+    <string name="scores_10">10</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sRecord">Add a record</string>
+    <string name="add_button">Add A record</string>
+</resources>
